@@ -1,0 +1,34 @@
+
+body{
+  background-color: rgb(167, 218, 141);
+}
+.List{
+color: blue;
+display: flex;
+flex-direction: column;
+align-items: center;
+align-content: center;
+justify-content: center;
+position: absolute;
+right: 40%;
+top: 20%;
+
+}
+button{
+  color: chartreuse;
+  background-color: red;
+  padding: 10px;
+  border-radius: 5px;
+  
+}
+.List label{
+  padding: 10px;
+  font-size: larger;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.List input{
+  width: 20vh;
+  height: 30px;
+  border-radius: 10px;
+}
