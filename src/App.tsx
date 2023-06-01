@@ -36,9 +36,9 @@ function App() {
   function handleClick() {
     setNumbers(numbers ? [...numbers, Number(add)] : [Number(add)]);
 
-    // Check if numbers is not null, then add the new number
+   
     setOpen(true);
-    setAdd(""); // Clear the input field after adding the number
+    setAdd(""); //
   }
 
   const handleClose = () => setOpen(false);
