@@ -28,9 +28,9 @@ const style = {
   p: 4,
 };
 function App() {
-  const [numbers, setNumbers] = useState<number[] | null>(null); // Initialize the state as null
+  const [numbers, setNumbers] = useState<number[] | null>(null); // 
   const [add, setAdd] = useState("");
-  const [modalOpen, setModalOpen] = useState(false);
+  
   const [openbtn, setOpen] = React.useState(false);
 
   function handleClick() {
